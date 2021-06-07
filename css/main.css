@@ -1,0 +1,125 @@
+*{
+	-moz-box-sizing: bordex-box;
+	box-sizing: bordex-box;
+}
+html,body{
+	background-color: #F2F0DF;
+	font-family: Helvetica, Verdana, Arial;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+#menu-container{
+	background-color: #222;
+	height: 100%;
+	position:fixed;
+	text-align: center;
+	width: 200px;
+	z-index: 999;
+}
+#menu-container #logo-menu{
+	padding-top: 20px;
+	z-index: 999;
+}
+#menu-container #logo-menu #logo-name{
+	color: #eee;
+	font-size: 14px;
+	padding-top: 10px;
+	z-index: 999;
+}
+#menu-container #logo-menu #logo-desc{
+	color: #eee;
+	font-size: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	z-index: 999;
+}
+#menu-container #menu{
+	border-top: solid 1px #888;
+	border-bottom: solid 1px #444;
+	margin: 0;
+	padding: 40px 0 40px 0;
+	z-index: 999;
+}
+
+#menu-container #menu li{
+	list-style: none;
+	margin: 0;
+	padding: 10px;
+	z-index: 999;
+}
+#menu-container #menu li a{
+	color: #fcb95b;
+	text-decoration: none;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-transition:all 0.3s;
+	z-index: 999;
+}
+#menu-container #menu li a:hover{
+	color: #f5dfce;
+	z-index: 999;
+}
+
+
+#main-container{
+	display: inline-block;
+	margin-left: 200px;
+	width: 2600px;
+}
+#main-container .seccion{
+	border-right: dotted 1px #ccc;
+	display: inline-block;
+	height: 600px;
+	padding: 10px;
+	width: 500px;
+	vertical-align: top;
+}
+#main-container .seccion h2{
+	border-bottom: solid 1px #ccc;
+	padding: 20px 20px;
+
+}
+#seccion-inicio{
+	padding-top: 130px !important;
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+	width: 450px !important;
+	text-align: center;
+	overflow: hidden;
+	overflow-y: scroll; 	
+	box-sizing: border-box;
+}
+#seccion-varias{
+	padding-top: 5px !important;
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+	width: 450px !important;
+	text-align: center;
+	overflow: hidden;
+	overflow-y: scroll; 	
+	box-sizing: border-box;
+}
+#seccion-inicio #inicio-desc{
+	color: #444;
+	font-style: italic;
+	font-size: 18px;
+}
+.separador{
+	background-image: url(../images/separador.png);
+	background-position: center center;
+	height: 50px;
+}
+
+#slider-miniaturas{
+
+}
+#slider-miniaturas img{
+	display: none;
+	width: 100%;
+}
+#slider-miniaturas img:nth-child(1){
+	display: block;
+};
